@@ -11,5 +11,7 @@ class DiceGame{
 	b=rand.nextInt(6)+1;
 	System.out.println(b);
 	System.out.println("Total value: "+ (a+b));
+	if(a+b>=7) System.out.println("You won!");
+	else System.out.println("You lost!");
     }
 }
